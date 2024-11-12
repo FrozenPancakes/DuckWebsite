@@ -68,8 +68,7 @@ button {
   border-style: solid;
   border-color: white;
   border-radius: 10px;
-    animation: rgb 5s infinite, rgbborder 5s infinite;
-
+  animation: rgb 5s infinite, rgbborder 5s infinite;
   height: 300px;
   width: 300px;
 }
