@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --borderData: 3px solid;
+}
+
+body {
+  background: #1d1728
+}
+
+hr {
+  border: 1px solid white
+}
+
+a {
+  font-family: Kode Mono;
+  color: white;
+  animation: rgb 5s infinite;
+  display: block;
+  text-align: center; 
+}
+
+h1, p, h3 {
+  font-family: Kode Mono;
+  color: white;
+  text-align: center; 
+}
+
+button {
+  height: 40px;
+  width: 130px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #1d1728;
+  color: white;
+  animation: rgb 5s infinite, rgbborder 5s infinite;
+  border-radius: 10px;
+  border: 3px solid white;
+  font-family: Kode Mono;
+  text-color: white;
+  margin: 0;
+  position: absolute;
+  top:  110px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top:  230px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top:  1330px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.duck {
+  border: 3px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+    animation: rgb 5s infinite, rgbborder 5s infinite;
+
+  height: 300px;
+  width: 300px;
+}
+
+.duckgif {
+  height: 300px
+  width: 300px;
+}
+
+@keyframes rgb {
+  0% {color: red;}
+  12.5% {color: orange;}
+  25%   {color: yellow;}
+  37.5% {color: lime;}
+  50% {color: cyan;}
+  62.5% {color: blue;}
+  75% {color: blueviolet;}
+  87.5% {color: magenta;}
+  100% {color: red;}
+}
+
+@keyframes rgbborder {
+  0% {border: var(--borderData) red;}
+  12.5% {border: var(--borderData) orange;}
+  25%   {border: var(--borderData) yellow;}
+  37.5% {border: var(--borderData) lime;}
+  50% {border: var(--borderData) cyan;}
+  62.5% {border: var(--borderData) blue;}
+  75% {border: var(--borderData) blueviolet;}
+  87.5% {border: var(--borderData) magenta;}
+  100% {border: var(--borderData) red;}
+}
